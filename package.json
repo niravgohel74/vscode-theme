@@ -1,0 +1,34 @@
+{
+  "name": "dark-script",
+  "displayName": "Dark Script",
+  "description": "Simplify your coding setup with our clean dark theme. Stay focused, work smarter, and code effortlessly.",
+  "version": "0.0.1",
+  "publisher": "niravgohel",
+  "icon": "images/Dark-theme-icon.jpg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niravgohel74/vscode-theme.git"
+  },
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "keywords": [
+    "theme",
+    "best dark theme",
+    "dark theme",
+    "coder theme",
+    "nirav gohel"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Script",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark Script-color-theme.json"
+      }
+    ]
+  }
+}
